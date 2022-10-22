@@ -6,7 +6,6 @@
 ### Install
 ``` 
 pip install https://github.com/jaeminSon/torchfetch
-(github ID, password 입력 필요)
 ```
 ### Usage
 ``` 
