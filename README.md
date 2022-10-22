@@ -46,7 +46,6 @@ pip install https://github.com/jaeminSon/torchfetch
 
 # get optimizer state dict
 >>> optimizer_state_dict = torchfetch.get_optimizer_state_dict("Test/objects/recipe/private_arch.json")
-
 ```
 
 ### File structure
@@ -62,7 +61,6 @@ $ pydeps torchfetch --reverse --only torchfetch --exclude-exact torchfetch
 
 # No cycle found with the following command
 $ pydeps torchfetch --reverse --only torchfetch --exclude-exact torchfetch --show-cycles
-
 ```
 <img src="./torchfetch.svg" width="600">
 
