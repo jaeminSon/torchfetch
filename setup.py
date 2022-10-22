@@ -25,7 +25,6 @@ setuptools.setup(
     install_requires=[
         'pandas',
         'numpy',
-        'torch',
         'albumentations',
         'opencv_python_headless',
         'opencv-python',
@@ -33,4 +32,12 @@ setuptools.setup(
         'pycocotools',
         'Pillow'
     ],
+    extras_require={
+    ':python_version == "3.6"': [
+        'torch==1.7.0',
+    ],
+    ':python_version == "3.7"': [
+        'torch==1.7.0',
+    ],
+    },
 )
