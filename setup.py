@@ -22,4 +22,15 @@ setuptools.setup(
     ],
     packages=setuptools.find_packages(),
     python_requires=">=3.6",
+    install_requires=[
+        'pandas',
+        'numpy',
+        'torch',
+        'albumentations',
+        'opencv_python_headless',
+        'opencv-python',
+        'torchvision',
+        'pycocotools',
+        'Pillow'
+    ],
 )

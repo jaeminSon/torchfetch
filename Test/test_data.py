@@ -133,7 +133,7 @@ class TestDataLoad:
         assert tuple(datum[0].shape)[:2] == (2, 3)  # (batchsize, channels)
         assert tuple(datum[1].shape) == (2, )  # (batchsize, )
 
-    @pytest.mark.parametrize("augment,", [None, "Test/objects/augment/imagenet.json", "Test/objects/augment/cocodetection.json"])
+    @pytest.mark.parametrize("augment,", [None, "Test/objects/augment/cocodetection.json"])
     def test_load_private_detection_with_augment(self, augment):
         """ combination of process and augment tested with 'test_load_public_data' function, thus set None to both """
         datum = sample_single_batch("Test/objects/data/detection1", preprocess=None, augment=augment, sampler=None, **{"num_workers": 1,
