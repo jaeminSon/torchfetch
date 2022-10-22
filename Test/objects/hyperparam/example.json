@@ -1,0 +1,20 @@
+{
+    "batch_size":{"train":4, "eval":1},
+    "num_workers": 4,
+    "loss": {"type":"cross_entropy"},
+    "epochs": 4000,
+    "lr_scheduler": {
+                    "type":"ReduceLROnPlateauAnnealing",
+                    "init_lr": 1e-4,
+                    "min_lr": 5e-07,
+                    "n_epochs_plateau": 10
+                    },
+    "save": {
+            "checkpoint":"checkpoint", 
+            "tensorboard":"tensorboard", 
+            "interval":100
+            },
+    "measure": {"train":["loss"], "eval":["IoU"]},
+    "augment_train": "segmentation_strong",
+    "augment_val": "segmentation_resize"
+}

@@ -1,0 +1,10 @@
+{
+    "type": "normalize",
+    "reference": "self_compute",
+    "mean": [
+        0
+    ],
+    "std": [
+        1
+    ]
+}

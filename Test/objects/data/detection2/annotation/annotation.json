@@ -1,0 +1,304 @@
+{
+    "info": {
+        "description": "COCO 2017 Dataset",
+        "url": "http://cocodataset.org",
+        "version": "1.0",
+        "year": 2017,
+        "contributor": "COCO Consortium",
+        "date_created": "2017/09/01"
+    },
+    "licenses": [
+        {
+            "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+            "id": 1,
+            "name": "Attribution-NonCommercial-ShareAlike License"
+        },
+        {
+            "url": "http://creativecommons.org/licenses/by-nc/2.0/",
+            "id": 2,
+            "name": "Attribution-NonCommercial License"
+        },
+        {
+            "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+            "id": 3,
+            "name": "Attribution-NonCommercial-NoDerivs License"
+        },
+        {
+            "url": "http://creativecommons.org/licenses/by/2.0/",
+            "id": 4,
+            "name": "Attribution License"
+        },
+        {
+            "url": "http://creativecommons.org/licenses/by-sa/2.0/",
+            "id": 5,
+            "name": "Attribution-ShareAlike License"
+        },
+        {
+            "url": "http://creativecommons.org/licenses/by-nd/2.0/",
+            "id": 6,
+            "name": "Attribution-NoDerivs License"
+        },
+        {
+            "url": "http://flickr.com/commons/usage/",
+            "id": 7,
+            "name": "No known copyright restrictions"
+        },
+        {
+            "url": "http://www.usa.gov/copyright.shtml",
+            "id": 8,
+            "name": "United States Government Work"
+        }
+    ],
+    "images": [
+        {
+            "license": 4,
+            "file_name": "000000522418.jpg",
+            "coco_url": "http://images.cocodataset.org/train2017/000000522418.jpg",
+            "height": 480,
+            "width": 640,
+            "date_captured": "2013-11-14 11:38:44",
+            "flickr_url": "http://farm1.staticflickr.com/1/127244861_ab0c0381e7_z.jpg",
+            "id": 522418
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [
+                [
+                    426.91,
+                    58.24,
+                    434.49,
+                    77.74,
+                    467.0,
+                    80.99,
+                    485.42,
+                    86.41,
+                    493.0,
+                    129.75,
+                    521.17,
+                    128.67,
+                    532.01,
+                    144.92,
+                    545.01,
+                    164.42,
+                    552.6,
+                    170.93,
+                    588.35,
+                    178.51,
+                    629.53,
+                    165.51,
+                    629.53,
+                    177.43,
+                    578.6,
+                    214.27,
+                    558.01,
+                    241.35,
+                    526.59,
+                    329.12,
+                    512.51,
+                    370.29,
+                    502.75,
+                    415.8,
+                    418.24,
+                    409.3,
+                    399.82,
+                    414.72,
+                    388.98,
+                    420.14,
+                    382.48,
+                    424.47,
+                    391.15,
+                    430.97,
+                    414.99,
+                    425.55,
+                    447.49,
+                    427.72,
+                    449.66,
+                    435.3,
+                    431.24,
+                    438.56,
+                    421.49,
+                    452.64,
+                    422.57,
+                    456.98,
+                    432.33,
+                    464.56,
+                    439.91,
+                    458.06,
+                    481.08,
+                    465.64,
+                    502.75,
+                    464.56,
+                    507.09,
+                    473.23,
+                    639.28,
+                    474.31,
+                    639.28,
+                    1.9,
+                    431.24,
+                    0.0
+                ]
+            ],
+            "area": 63325.421899999994,
+            "iscrowd": 0,
+            "image_id": 522418,
+            "bbox": [
+                382.48,
+                0.0,
+                256.8,
+                474.31
+            ],
+            "category_id": 1,
+            "id": 455475
+        },
+        {
+            "segmentation": [
+                [
+                    416.41,
+                    449.28,
+                    253.36,
+                    422.87,
+                    234.06,
+                    412.2,
+                    277.23,
+                    406.61,
+                    343.77,
+                    411.69,
+                    379.84,
+                    414.23,
+                    384.41,
+                    424.9,
+                    397.11,
+                    427.95,
+                    410.31,
+                    427.95,
+                    445.36,
+                    429.98,
+                    454.0,
+                    438.61,
+                    431.65,
+                    438.61,
+                    423.01,
+                    449.28
+                ]
+            ],
+            "area": 4200.516899999997,
+            "iscrowd": 0,
+            "image_id": 522418,
+            "bbox": [
+                234.06,
+                406.61,
+                219.94,
+                42.67
+            ],
+            "category_id": 49,
+            "id": 692513
+        },
+        {
+            "segmentation": [
+                [
+                    71.19,
+                    327.91,
+                    5.39,
+                    371.06,
+                    0.0,
+                    371.06,
+                    0.0,
+                    473.53,
+                    365.66,
+                    473.53,
+                    379.69,
+                    442.25,
+                    354.88,
+                    431.46,
+                    247.01,
+                    417.44,
+                    232.99,
+                    410.97,
+                    277.21,
+                    406.65,
+                    326.83,
+                    408.81,
+                    379.69,
+                    416.36,
+                    386.16,
+                    418.52,
+                    393.71,
+                    413.12,
+                    406.65,
+                    379.69,
+                    406.65,
+                    366.74,
+                    399.1,
+                    339.78,
+                    286.92,
+                    323.6,
+                    179.06,
+                    318.2,
+                    98.16,
+                    316.04
+                ]
+            ],
+            "area": 54409.19939999999,
+            "iscrowd": 0,
+            "image_id": 522418,
+            "bbox": [
+                0.0,
+                316.04,
+                406.65,
+                157.49
+            ],
+            "category_id": 61,
+            "id": 1085508
+        },
+        {
+            "segmentation": [
+                [
+                    347.84,
+                    225.66,
+                    311.69,
+                    249.35,
+                    305.45,
+                    205.71,
+                    361.56,
+                    172.05,
+                    362.81,
+                    179.53
+                ]
+            ],
+            "area": 2220.645799999999,
+            "iscrowd": 0,
+            "image_id": 522418,
+            "bbox": [
+                305.45,
+                172.05,
+                57.36,
+                77.3
+            ],
+            "category_id": 81,
+            "id": 1982455
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "person",
+            "id": 1,
+            "name": "person"
+        },
+        {
+            "supercategory": "kitchen",
+            "id": 49,
+            "name": "knife"
+        },
+        {
+            "supercategory": "food",
+            "id": 61,
+            "name": "cake"
+        },
+        {
+            "supercategory": "appliance",
+            "id": 81,
+            "name": "sink"
+        }
+    ]
+}

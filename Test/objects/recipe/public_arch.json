@@ -1,0 +1,30 @@
+{
+    "description":{
+        "project":"test",
+        "data":"imagenet",
+        "architecture":"resnet18",
+        "comment":"debugging"
+    },
+    "architecture":{
+        "filepath": null,
+        "classname":"resnet18",
+        "arguments":{}
+    },
+    "information":{
+        "author":"john doe",
+        "date":"20220411",
+        "task":"classification",
+        "pretrain_method": null,
+        "performance":{
+            "dataset1":{
+                "metric1": "val1",
+                "metric2": "val2"
+            },
+            "dataset2": {
+                "metric1": "val1",
+                "metric2": "val2"
+            }
+        }
+    },
+    "preprocess": "MNIST"
+}

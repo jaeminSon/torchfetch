@@ -1,0 +1,29 @@
+{
+    "__version__": "0.5.2",
+    "task": "classification",
+    "type_input": "image",
+    "aug_input": true,
+    "aug_target": false,
+    "transform": {
+        "__class_fullname__": "albumentations.core.composition.Compose",
+        "p": 1.0,
+        "transforms": [
+            {
+                "__class_fullname__": "albumentations.augmentations.transforms.Resize",
+                "always_apply": false,
+                "p": 1,
+                "height": 224,
+                "width": 224,
+                "interpolation": 1
+            },
+            {
+                "__class_fullname__": "albumentations.augmentations.transforms.HorizontalFlip",
+                "always_apply": false,
+                "p": 0.5
+            }
+        ],
+        "bbox_params": null,
+        "keypoint_params": null,
+        "additional_targets": {}
+    }
+}

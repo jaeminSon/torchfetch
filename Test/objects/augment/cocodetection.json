@@ -1,0 +1,50 @@
+{
+    "__version__": "0.5.2",
+    "task": "detection",
+    "type_input": "image",
+    "aug_input": true,
+    "aug_target": true,
+    "transform": {
+        "__class_fullname__": "albumentations.core.composition.Compose",
+        "p": 1.0,
+        "transforms": [
+            {
+                "__class_fullname__": "albumentations.augmentations.transforms.RandomCrop",
+                "always_apply": false,
+                "p": 1.0,
+                "height": 360,
+                "width": 360
+            },
+            {
+                "__class_fullname__": "albumentations.augmentations.transforms.HorizontalFlip",
+                "always_apply": false,
+                "p": 0.5
+            },
+            {
+                "__class_fullname__": "albumentations.augmentations.transforms.RandomBrightnessContrast",
+                "always_apply": false,
+                "p": 0.2,
+                "brightness_limit": [
+                    -0.2,
+                    0.2
+                ],
+                "contrast_limit": [
+                    -0.2,
+                    0.2
+                ],
+                "brightness_by_max": true
+            }
+        ],
+        "bbox_params": {
+            "format": "coco",
+            "label_fields": [
+                "class_labels"
+            ],
+            "min_area": 0.0,
+            "min_visibility": 0.0,
+            "check_each_transform": true
+        },
+        "keypoint_params": null,
+        "additional_targets": {}
+    }
+}

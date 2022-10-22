@@ -1,0 +1,41 @@
+{
+    "__version__": "0.5.2",
+    "task": "classification",
+    "type_input":"image", 
+    "aug_input":true,
+    "aug_target":false,
+    "transform": {
+        "__class_fullname__": "albumentations.core.composition.Compose",
+        "p": 1.0,
+        "transforms": [
+            {
+                "__class_fullname__": "albumentations.augmentations.transforms.ShiftScaleRotate",
+                "always_apply": false,
+                "p": 1,
+                "shift_limit_x": [
+                    -0.1,
+                    0.1
+                ],
+                "shift_limit_y": [
+                    -0.1,
+                    0.1
+                ],
+                "scale_limit": [
+                    0.0,
+                    0.0
+                ],
+                "rotate_limit": [
+                    0,
+                    0
+                ],
+                "interpolation": 1,
+                "border_mode": 4,
+                "value": null,
+                "mask_value": null
+            }
+        ],
+        "bbox_params": null,
+        "keypoint_params": null,
+        "additional_targets": {}
+    }
+}

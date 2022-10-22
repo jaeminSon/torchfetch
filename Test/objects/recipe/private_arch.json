@@ -1,0 +1,35 @@
+{
+    "description":{
+        "project":"test_1-2_3",
+        "data":"$mnist*",
+        "architecture":"FEEDforward",
+        "comment":"debugging"
+    },
+    "architecture":{
+        "filepath":"Test/objects/architecture/feedforwardmnist.py",
+        "classname":"Net",
+        "arguments":{}
+    },
+    "checkpoint":{
+        "filepath": "Test/objects/checkpoint/private_arch_chpt.pth",
+        "key_weight_state_dict":"state_dict",
+        "key_optimizer_state_dict":"optimizer"
+    },
+    "information":{
+        "author":"john doe",
+        "date":"20220411",
+        "task":"classification",
+        "pretrain_method":"None",
+        "performance":{
+            "dataset1":{
+                "metric1": "val1",
+                "metric2": "val2"
+            },
+            "dataset2": {
+                "metric1": "val1",
+                "metric2": "val2"
+            }
+        }
+    },
+    "preprocess": "MNIST"
+}
