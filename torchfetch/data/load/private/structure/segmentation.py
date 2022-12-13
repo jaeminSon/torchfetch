@@ -53,9 +53,9 @@ class ImageMask(Dataset):
             return img.convert(mode)
 
     @staticmethod
-    def get_all_path_asterisk(pattern: str):
+    def get_all_path_asterisk(pattern: str) -> list:
         return glob.glob(pattern)
 
     @staticmethod
-    def drop_extension(filename: str):
+    def drop_extension(filename: str) -> str:
         return ".".join(filename.split(".")[:-1])
