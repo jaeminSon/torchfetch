@@ -289,7 +289,7 @@ class TestDataLoad:
                                                                                              "shuffle": True})
 
 
-class TestDataUpload:
+class TestValidate:
     def test_validate_augment(self):
         assert is_valid_augment("Test/objects/augment/imagenet.json")
         assert is_valid_augment("Test/objects/augment/mnist.yaml")
