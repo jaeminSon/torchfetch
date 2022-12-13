@@ -20,7 +20,7 @@ class DataStructureDescriptor(object, metaclass=Singleton):
     IMG_CLS_ANNOT_INPUT_TAG = "filename"
     IMG_CLS_ANNOT_TARGET_TAG = "annotation"
 
-    NAME_DATA_DESCRIPTION_FILE = "description.json"  # airs automl frontend related file
+    NAME_DATA_DESCRIPTION_FILE = "description.json"
 
     ALLOWED_IMG_EXTENSION = ('.jpg', '.jpeg', '.png', '.ppm', '.bmp', '.pgm', '.tif', '.tiff', '.webp')
 
